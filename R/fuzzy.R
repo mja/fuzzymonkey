@@ -5,7 +5,7 @@
 #' Given a set of items loadings, calculate the minimum
 #' loading for each item on all the dimensions.
 #' 
-#' @param ... Vectors item loadings.
+#' @param ... Vectors of loadings labelled with item names
 #' @export
 fuzzy_intersect <- function(...) {
   dimensions <- list(...)
@@ -24,10 +24,10 @@ fuzzy_intersect <- function(...) {
     min_loadings[i] <- l[min_index]
   }
 
+ # order by items with most salient loadings
  fuzzy_loadings <- min_loadings[order(abs(min_loadings), decreasing=TRUE)]
 
  return(fuzzy_loadings) 
-
 
 }
 
