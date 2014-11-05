@@ -3,8 +3,8 @@ Title: Fuzzy set analysis for cross-species personality assessments
 Description: Data and code for Adams et al "Personality Structure and
     Social Style in Macaques"
 Version: 0.1.0
-Author: Mark James Adams <mark@raysend.com>
-Maintainer: Mark James Adams <mark@raysend.com>
+Author: Mark James Adams <m@differentialist.info>
+Maintainer: Mark James Adams <m@differentialist.info>
 Depends:
     psych
 License: CC0 Universal
