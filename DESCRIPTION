@@ -2,7 +2,7 @@ Package: fuzzymonkey
 Title: Fuzzy set analysis for cross-species personality assessments
 Description: Data and code for Adams et al "Personality Structure and
     Social Style in Macaques"
-Version: 0.1.0
+Version: 0.1.1
 Author: Mark James Adams <m@differentialist.info>
 Maintainer: Mark James Adams <m@differentialist.info>
 Depends:
