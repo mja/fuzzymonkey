@@ -16,5 +16,6 @@ Personality structures for Japanese macacques _(Macaca fuscata)_, Barbary macaqu
 > data(sylvansus)  
 > data(assamensis)  
 > data(tonkeana)
+> data(nigra)
 
 
