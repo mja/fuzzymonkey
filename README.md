@@ -19,4 +19,10 @@ Personality structures for Japanese macacques _(Macaca fuscata)_, Barbary macaqu
 > data(tonkeana)
 > data(nigra)
 
+## Fuzzy set analysis
 
+The function `fuzzy_intersect()` takes an arbitrary number of vectors of item loadings labelled with item names (labelling will occur automatically when extracting columns from FA and PCA loadings matrices or from matrix objects with labelled rows). For example, to find the fuzzy intersection of the Dominance/Confidence components from each personality structure:
+
+> fuzzy_intersect(fuscata[,1], sylvanus[,1], assamensis[,1], nigra[,2], tonkeana[,1])
+
+The resulting vector gives the fuzzy membership of each item.
