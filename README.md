@@ -5,7 +5,7 @@ fuzzymonkey is a set of code and data supporting the fuzzy set analysis in Adams
 
 ## Installation
 
-> library(devtools)
+> library(devtools)  
 > install_github('mja/fuzzymonkey')  
 > library(fuzzymonkey)
 
